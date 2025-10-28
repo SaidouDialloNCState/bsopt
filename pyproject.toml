@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bsopt"
+version = "0.1.0"
+description = "Black-Scholes pricing, Greeks, Monte Carlo, and binomial trees with plots."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name="Saidou Diallo"}]
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "matplotlib>=3.8",
+  "pandas>=2.2",
+  "tqdm>=4.66",
+  "click>=8.1",
+  "pytest>=8.0",
+  "pre-commit>=3.7",
+  "black>=24.0",
+  "flake8>=7.0",
+  "isort>=5.13"
+]
+
+[project.scripts]
+bsopt = "bsopt.cli:main"
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"

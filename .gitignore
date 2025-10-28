@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.build/
+dist/
+.ipynb_checkpoints/
+# IDE
+.vscode/
+.idea/
+# Plots & outputs
+outputs/
+!outputs/.gitkeep
+# OS
+.DS_Store
+Thumbs.db
