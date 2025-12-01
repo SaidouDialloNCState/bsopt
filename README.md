@@ -31,7 +31,7 @@ Most existing libraries (like QuantLib) are **monolithic** or opaque for educati
 
 ---
 
-## 💡 **VALUE PROPOSITION**
+## **VALUE PROPOSITION**
 
 - A **research-grade derivatives toolkit** with analytical, numerical, and stochastic solvers unified under one consistent interface.  
 - Designed for **transparency, extensibility, and reproducibility** — perfect for portfolio work, model comparison, or interview prep.
@@ -40,7 +40,7 @@ Most existing libraries (like QuantLib) are **monolithic** or opaque for educati
 
 ## **ARCHITECTURAL BLOCK DIAGRAM**
 
-*(Insert the PlantUML diagram here)*
+![BSOPT Architecture](https://raw.githubusercontent.com/SaidouDialloNCState/bsopt/main/diagrams/bsopt_abm.png)
 
 ---
 
@@ -66,7 +66,8 @@ Copy code
 bsopt price --kind call --S 100 --K 100 --r 0.05 --sigma 0.2 --T 1
 bsopt lsm   --kind put --S 100 --K 100 --r 0.05 --sigma 0.2 --T 1 --paths 200000 --steps 50
 bsopt sabr_calibrate --data data/vol_surface.csv
-🧠 TECH SECTION
+
+TECH SECTION
 Methods / Models
 Implements closed-form Black–Scholes, Cox–Ross–Rubinstein binomial trees, Crank–Nicolson PDE, Monte Carlo with pathwise/Likelihood-Ratio Greeks, and Longstaff–Schwartz regression (LSM) for American options.
 Supports advanced model calibration for SABR and Heston volatility surfaces, with numerical stabilization and plotting tools.
