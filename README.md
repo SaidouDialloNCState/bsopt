@@ -1,52 +1,52 @@
-# **bsopt — Options Research Toolbox**
+bsopt — Options Research Toolbox
 
-**Author:** [Saidou Diallo](https://www.linkedin.com/in/saidoudialloquant/)  
-**PROGRAMS USED:** Tableau · Git Bash · Visual Studio Code · GitHub Actions · Jupyter Notebook  
-**LANGUAGES USED:** Python · Bash · YAML · Markdown  
-**SKILLS USED:** Quantitative Finance · Derivatives Modeling · Monte Carlo Simulation · Numerical PDEs · Model Calibration · Data Visualization · Software Engineering · CI/CD  
+Author: [Saidou Diallo](https://www.linkedin.com/in/saidoudialloquant/)  
+PROGRAMS USED: Tableau · Git Bash · Visual Studio Code · GitHub Actions · Jupyter Notebook  
+LANGUAGES USED: Python · Bash · YAML · Markdown  
+SKILLS USED: Quantitative Finance · Derivatives Modeling · Monte Carlo Simulation · Numerical PDEs · Model Calibration · Data Visualization · Software Engineering · CI/CD  
 
 ---
 
-## **SUMMARY**
+SUMMARY
 
-**What I made:**  
-`bsopt` (“Black-Scholes Options”) is a modern **options research and pricing toolbox**.  
-It implements analytical, Monte Carlo, PDE, and transform-based pricing engines for European and American options, along with **SABR** and **Heston** model calibration.  
-It includes a tested **CLI and Python API** for research reproducibility and comparative analysis across pricing methods.
+What I made:
+`bsopt` (“Black-Scholes Options”) is a modern options research and pricing toolbox.  
+It implements analytical, Monte Carlo, PDE, and transform-based pricing engines for European and American options, along with SABR and Heston model calibration.  
+It includes a tested CLI and Python API for research reproducibility and comparative analysis across pricing methods.
 
-**Why I named it what I did:**  
-The project started as a clean, extensible implementation of the **Black–Scholes model**, but evolved into a broader framework for derivatives research — hence the name `bsopt` (short for *Black-Scholes Options*).
+Why I named it what I did:
+The project started as a clean, extensible implementation of the Black–Scholes model, but evolved into a broader framework for derivatives research — hence the name `bsopt` (short for *Black-Scholes Options*).
 
-**Who this is for:**  
-Quant researchers, traders, and developers who need a **transparent, auditable, and extensible** options pricing engine for experiments, benchmarking, or calibration tasks.
+Who this is for: 
+Quant researchers, traders, and developers who need a transparent, auditable, and extensible options pricing engine for experiments, benchmarking, or calibration tasks.
 
-**What problem it solves:**  
-Most existing libraries (like QuantLib) are **monolithic** or opaque for educational or research use.  
-`bsopt` provides the **clarity, modularity, and numerical rigor** needed for experimentation, validation, and quantitative interviews.
+What problem it solves:
+Most existing libraries (like QuantLib) are monolithic or opaque for educational or research use.  
+`bsopt` provides the clarity, modularity, and numerical rigor needed for experimentation, validation, and quantitative interviews.
 
-**Why it’s better than “just using XYZ library”:**  
+Why it’s better than “just using XYZ library”: 
 - 100% open, modular, and reproducible with CLI and CI integration.  
 - Code and math directly traceable — ideal for research or demonstration.  
 - Combines PDEs, Monte Carlo (LSM, Greeks, variance reduction), and transform methods in a single clean package.
 
 ---
 
-## **VALUE PROPOSITION**
+VALUE PROPOSITION
 
-- A **research-grade derivatives toolkit** with analytical, numerical, and stochastic solvers unified under one consistent interface.  
-- Designed for **transparency, extensibility, and reproducibility** — perfect for portfolio work, model comparison, or interview prep.
+- A research-grade derivatives toolkit with analytical, numerical, and stochastic solvers unified under one consistent interface.  
+- Designed for transparency, extensibility, and reproducibility — perfect for portfolio work, model comparison, or interview prep.
 
 ---
 
-## **ARCHITECTURAL BLOCK DIAGRAM**
+ARCHITECTURAL BLOCK DIAGRAM
 
 ![BSOPT Architecture](https://raw.githubusercontent.com/SaidouDialloNCState/bsopt/main/diagrams/bsopt_abm.png)
 
 ---
 
-## **QUICKSTART ON GIT BASH**
+QUICKSTART ON GIT BASH
 
-**STEP 1 — Clone and initialize**
+STEP 1 — Clone and initialize
 ```bash
 mkdir -p ~/git/repository6
 cd ~/git/repository6
