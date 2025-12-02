@@ -15,7 +15,7 @@ BSOPT improves on common alternatives by combining analytical transparency, algo
 ## VALUE PROPOSITION
 BSOPT provides a unified, auditable, and research-ready environment for option pricing and calibration across analytical, numerical, and stochastic models. It is designed for reproducible research, precision benchmarking, and extensible model development that supports quantitative finance workflows.
 ## ARCHITECTURE DIAGRAM
-![BSOPT Architecture](diagrams/bsopt_abm.png)
+![BSOPT Architecture](https://raw.githubusercontent.com/SaidouDialloNCState/bsopt/main/diagrams/bsopt_abm.png)
 ## QUICKSTART (GIT BASH)
 ### STEP 1 — Clone & Set Up Environment
 git clone https://github.com/SaidouDialloNCState/Black-Scholes.git
